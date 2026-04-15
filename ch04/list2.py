@@ -39,3 +39,24 @@ print(clovers)
 
 del clovers[1]
 print(clovers)
+
+print("HH-------------------------")
+clovers = ['클로버1', '클로버2', '클로버3']
+print(clovers)
+clovers.insert(1, '클로버4')
+print(clovers)
+
+print("HHH-------------------------")
+clovers = ['클로버1', '클로버2', '클로버3']
+print(clovers)
+clovers.insert(0, '클로버5')
+print(clovers)
+
+print("-------------------------")
+clovers = ['클로버1', '클로버2', '클로버3']
+print(clovers)
+clovers.extend([1, 2, 3])
+print(clovers)
+clovers.append(555555555)
+print(clovers)
+
