@@ -24,3 +24,10 @@ print(set1 | set2)
 
 # 차집합: -
 print(set1 - set2)
+
+print("----------------")
+# 산술 연산을 지원하지 않음
+# 집합 자료형 => 숫자 계산보다 집합 연산을 위해 설계
+
+print([1,2] + [3,4])
+print({1,2} + {3,4})    # TypeError: unsupported operand type(s) for +: 'set' and 'set'
