@@ -4,7 +4,7 @@
 # 웹 브라우저 방문 기록을 관리하는 프로그램을 작성하세요.
 # (앞서 학습한 2가지 자료구조 중 하나를 선택 할 것.)
 
-from stcak_class import Stack
+from stack_class import Stack
 browser = Stack()
 browser.push("NAVER")
 browser.push("YouTube")
