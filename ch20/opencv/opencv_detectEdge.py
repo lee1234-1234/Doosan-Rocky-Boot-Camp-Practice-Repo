@@ -1,4 +1,4 @@
-# opencv_resize.py
+# opencv_detectEdge.py
 
 import cv2
 
