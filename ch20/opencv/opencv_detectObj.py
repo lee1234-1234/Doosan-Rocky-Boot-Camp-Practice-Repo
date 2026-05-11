@@ -32,7 +32,7 @@ print(faces)
 for (x, y, w, h) in faces:
     cv2.rectangle(image, (x, y), (x+w, y+h), (200, 0, 0), 2)
 
-
+# 6. 이미지 창에 표시
 cv2.imshow('Loaded Image', image)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
