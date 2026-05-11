@@ -1,4 +1,4 @@
-# opencv_module.py
+# opencv_detectObj.py
 
 import cv2
 
